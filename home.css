@@ -665,7 +665,7 @@
   padding-top: 110px;
   padding-left: var(--dl-space-space-fiveunits);
   padding-right: var(--dl-space-space-fiveunits);
-  flex-direction: column;
+  flex-direction: row;
   padding-bottom: var(--dl-space-space-fiveunits);
   background-color: #122821;
 }
@@ -1269,6 +1269,8 @@
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-threeunits);
+    display: flex;
+    flex-direction: column;
   }
   .home-content2 {
     gap: var(--dl-space-space-oneandhalfunits);
